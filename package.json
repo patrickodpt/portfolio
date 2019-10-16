@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://patrickodpt.github.io/portfolio/"
+  "homepage": "https://patrickodpt.github.io/portfolio/",
   "dependencies": {
     "@material-ui/core": "^4.4.3",
     "@material-ui/icons": "^4.4.3",
