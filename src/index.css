@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* attempt below with blur */
+  /* background-image: url(https://images.unsplash.com/photo-1567966512358-5cbd19814537?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80); */
   background-image: url(https://images.unsplash.com/photo-1433785069405-791b480d0a62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2689&q=80);
   background-repeat: no-repeat;
   background-position: center;
