@@ -25,6 +25,7 @@ const styles = {
     alignItems: 'center',
     display: 'flex',
     alignSelf: 'start',
+    justifyContent: 'center',
   }
 }
 
@@ -53,6 +54,7 @@ class Home extends Component {
                 textAlign: 'center',
                 textShadow: '2px 4px black',
                 backgroundColor: '#00000073',
+                letterSpacing: '-0.02em'
                 }}>
               PATRICK O'SHEA
             </Typography>
@@ -71,8 +73,8 @@ class Home extends Component {
             </Typography>
           </Box>
         </Grid>
-        <Grid item xs={12} style={styles.GridItem}  alignItems='center'>
-          <Typography style={styles.TypoBox}>
+        <Grid item xs={4} sm={12} style={styles.GridItem}  alignItems='center'>
+          <Grid container style={styles.TypoBox}>
             <Button
               href="https://www.linkedin.com/in/patrickodpt/"
               target="_blank"
@@ -97,7 +99,7 @@ class Home extends Component {
                 style={styles.EmbiggenedIcon}
                 color="action" />
             </Button>
-          </Typography>
+          </Grid>
         </Grid>
       </Grid>
     )
